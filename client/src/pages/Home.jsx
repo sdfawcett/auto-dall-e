@@ -43,7 +43,7 @@ const Home = () => {
     } finally {
       setLoading(false)
     }
-  };
+  }
 
   useEffect(() => {
     fetchPosts()
